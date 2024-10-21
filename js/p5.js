@@ -161,7 +161,7 @@ amdclean['core'] = function (require, shim, constants) {
       this._loadingScreen = document.getElementById(this._loadingScreenId);
       if (!this._loadingScreen) {
         this._loadingScreen = document.createElement('loadingDiv');
-        this._loadingScreen.innerHTML = 'loading...';
+        this._loadingScreen.innerHTML = '';
         this._loadingScreen.style.position = 'absolute';
         var node = this._userNode || document.body;
         node.appendChild(this._loadingScreen);
