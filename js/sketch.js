@@ -18,7 +18,7 @@ function draw() {
   fr = frameRate();
 
   if (fr > 0) {
-    total += 10;
+    total += 1000;
   }
 
   for (var i = 0; i < total; i ++){
